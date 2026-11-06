@@ -47,7 +47,7 @@ The cluster returned **4 namespaces**. Findings, namespace by namespace:
   - `coredns` — 1/1 ready
   - `local-path-provisioner` — 1/1 ready
 - **Pods (2):**
-  - `coredns-576bfc4dc7-d2sq2` — Running
-  - `local-path-provisioner-6795b5f9d8-zrc4w` — Running
+  - `coredns-576bfc4dc7-wztw9` — Running
+  - `local-path-provisioner-6795b5f9d8-nfnz6` — Running
 
 **Summary:** 4 namespaces exist, all Active. All workloads are concentrated in `kube-system` (2 deployments, 2 pods, all healthy/Running). The `default`, `kube-node-lease`, and `kube-public` namespaces contain no deployments and no pods. No application workloads are running outside `kube-system`.
